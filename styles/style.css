@@ -1,0 +1,438 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffff;
+    background-color: #ff900e;
+    height: 50px;
+    width: 140px;
+    padding: 5px;
+    margin: 20px;
+    border: 0;
+    border-radius: 8px;
+}
+/* button section starts here */
+.btn-experience {
+    position: relative;
+    top: -100px;
+    margin-left: -60px;
+    padding: 10px;
+    height: 150px;
+    width: 250px;
+    background-color: #ff900e;
+    color: #ffffff;
+    border: 0;
+    border-radius: 8px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.btn-experience>span {
+    font-size: 20px;
+    color: #ffffff;
+    position: relative;
+    bottom: 20px;
+}
+/* ================================== */
+/* button section ends here */
+/* ================================== */
+span {
+    color: black;
+    font-weight: 900;
+}
+
+
+.d-flex {
+    display: flex;
+
+}
+/* ================================== */
+/* header section starts here */
+/* ================================== */
+.header {
+    background-color: #f0dfb6;
+}
+
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+
+}
+
+.header-nav a {
+    color: #424242;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.header-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700px;
+
+}
+
+.header-menu {}
+
+/* ----------------------------------- */
+/* header section ends here */
+/* ------------------------------- */
+
+/* Architect section starts here */
+.architects {
+    text-align: center;
+}
+
+.architect-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.architect-second-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.architects p {
+    color: #727272;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+
+.architect-banner img {
+
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+
+/* architect section ends here */
+/* -------------------------------- */
+
+/* feature section starts here */
+
+.features .d-flex {}
+
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.feature-img img {
+    width: 100%;
+    height: 280px;
+
+}
+
+.feature-info {
+    margin-top: 200px;
+    padding: 50px;
+
+}
+
+.feature-header-first {
+    color: #727272;
+    font-size: 40px;
+}
+
+.feature-header-second {
+    color: #ff900e;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.feature-para {
+    color: #727272;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+/* feature section ends here */
+/* _________________________________ */
+
+/* lamdmark section starts here */
+.landmark {
+    margin-top: 80px;
+}
+
+.land-header {
+    color: #131313;
+    font-weight: 900;
+    font-size: 40px;
+    border-left: 4px solid #ff900e;
+    padding-left: 15px;
+}
+
+.land-para {
+    color: #727272;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.landmark-content {
+    width: 50%;
+    padding-right: 100px;
+
+}
+
+.land-img {
+    width: 50%;
+    padding: 0 50px;
+}
+
+.land-img img {
+    position: relative;
+    width: 100%;
+
+
+}
+
+
+.land-header-second {
+    margin-top: 20px;
+    padding: 20px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #d2d2d2;
+    width: 580px;
+
+
+}
+
+.land-header-second>p {
+    color: #727272;
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+
+/* landmark section ends here */
+
+/* fact section starts here */
+.facts {}
+
+.facts-header {
+    font-size: 35px;
+    font-weight: 900;
+    color: #131313;
+}
+
+.facts-para {
+    color: #727272;
+    margin-top: 20px;
+    width: 550px;
+}
+
+/* fact section ends here */
+
+/* achivment section starts here */
+
+.achivment {
+    padding: 90px;
+}
+
+.achivment .achivment-item {
+    padding-top: 50px;
+    height: auto;
+    width: 25%;
+
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.achivment .item-wraper {
+    width: 200px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px 20px;
+    transition: 500ms;
+}
+
+.achivment .item-wraper:hover {
+    background: #eaeaea;
+    box-shadow: 0 0 10px rgba(193, 193, 193, 0.863);
+}
+
+.achivment h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #424242;
+}
+
+.achivment p {
+    color: #727272;
+    font-weight: 400;
+}
+
+/* achivment section ends here */
+
+/* sponsor section starts here */
+
+.sponsor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sponsor-head {
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+    color: #131313;
+}
+
+.sponsor-para {
+    margin-left: 20%;
+    padding: 15px;
+    color: #727272;
+    font-weight: 400;
+}
+
+/* sponsor section ends here */
+
+/* companies section starts here */
+.companies {
+    padding: 70px;
+    width: 100%;
+}
+
+.companies .d-flex {
+    justify-content: center;
+}
+
+.companies .d-flex div {
+    width: 20%;
+    text-align: center;
+}
+
+.companies img {
+    filter: grayscale(100%);
+    width: 140px;
+}
+
+/* companies section starts here */
+
+/* footer section starts here */
+.footer {
+    text-align: center;
+    padding-top: 50px;
+    height: 100px;
+    background-color: #fff4E7;
+    margin-bottom: 100px;
+}
+
+/* footer section starts here */
+
+
+
+
+/*
+ ======================
+   Reasponsive Style 
+ ======================
+*/
+
+@media only screen and (max-width : 576px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .header-nav {
+
+        flex-direction: column;
+    }
+
+    .header-title,
+    .header-menu,
+    .feature-info,
+    .landmark-content,
+    .land-img,
+    .land-header-second,
+    .facts-para {
+        width: 100%;
+
+    }
+
+    .header-nav a {
+        display: block;
+        padding: 10px;
+    }
+
+    .architect-title {
+        margin-top: 0px;
+    }
+
+    .features .d-flex {
+        flex-direction: column;
+    }
+
+    .feature-img {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .landmark .d-flex {
+        flex-direction: column;
+    }
+
+    .achivment .d-flex {
+        flex-direction: column;
+
+    }
+
+    .achivment .d-flex>div {
+        width: 100%;
+
+    }
+
+    .companies .d-flex {
+        flex-direction: column;
+    }
+
+    .companies .d-flex>div {
+        width: 100%;
+    }
+
+    .facts {
+        padding-top: 40px;
+    }
+
+    .btn-experience {
+
+        top: 0px;
+        margin-left: 0px;
+
+    }
+
+    .landmark-content {
+        padding-right: 0;
+    }
+
+}

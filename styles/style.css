@@ -81,15 +81,12 @@ span {
     text-decoration: none;
     margin-right: 40px;
 }
-
 .header-title {
     color: #131313;
     font-size: 45px;
     font-weight: 700px;
 
 }
-
-.header-menu {}
 
 /* ----------------------------------- */
 /* header section ends here */
@@ -130,7 +127,6 @@ span {
 
 /* feature section starts here */
 
-.features .d-flex {}
 
 .feature-img {
     display: grid;
@@ -231,7 +227,7 @@ span {
 /* landmark section ends here */
 
 /* fact section starts here */
-.facts {}
+
 
 .facts-header {
     font-size: 35px;
